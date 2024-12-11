@@ -1,7 +1,7 @@
 
 #List are ordered collection of items
 #[]
-#list is like a shopping bag which can store everything
+
 type([])
 grocery_list = ["Milk", "Orange", 1, 2, 3, True, 2+4j, 2.3]
 type(grocery_list)

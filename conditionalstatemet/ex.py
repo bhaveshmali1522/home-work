@@ -1,6 +1,5 @@
-def example_function(*args,  **kwargs):
-    print("Positional arguments:",args)
-    print("Keyword arguments:",kwargs)
+list_a = [1, 2, 3, 4]
+list_b = [5, 6, 7, 8]
 
-
-example_function(1,2,3,name="bhavesh",age=23)
+result = [(index+1) * value for index, value in enumerate(zip(list_a, list_b))]
+print(result)

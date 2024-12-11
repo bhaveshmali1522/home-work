@@ -28,7 +28,7 @@ print(color_palette)
 print(type(color_palette))
 
 #DICT
-employee_data = {'id': 101, 'name': 'Emily', 'department': 'HR'}
+employee_data = {'id': 101, 'name': 'Bhavesh', 'age': 22}
 print(employee_data)  
 print(type(employee_data))
 
